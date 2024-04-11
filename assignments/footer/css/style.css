@@ -1,0 +1,36 @@
+.logo img {
+    margin-left: 29%;
+    margin-right: 30%;
+    margin-bottom: 0%;
+}
+    
+menu {
+    border-bottom: 1px solid #000; /* added the line on bottom of the menu*/
+    display: flex;
+    justify-content: space-between;
+    margin: 0%;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: none; /* removes the bullet points */
+    display: flex; /* when you move the page it keeps the items together*/
+    justify-content: space-between; /* adds spaces between the list elements */
+}
+
+a {
+    text-decoration: none; /* removes the underline */
+    color: #000; /* changed the text color */
+}
+
+footer {
+    border-top: 1px solid #000; /* added the line on top of the footer*/
+}
+
+a {
+    text-decoration: none; /* removes the underline */
+    color: #000; /* changed the text color */
+}

@@ -6,24 +6,24 @@
     
 menu {
     border-bottom: 1px solid #000; /* added the line on bottom of the menu*/
-    display: flex;
-    justify-content: space-between;
+    display: flex; /* when you move the page it keeps items together */
+    justify-content: space-between; /* adds spaces between the list elements */
     margin: 0%;
 }
 
-li {
-    list-style-type: none;
+menu {
+    list-style-type: none; /* removes the bullet points*/
 }
 
 ul {
-    list-style-type: none; /* removes the bullet points */
-    display: flex; /* when you move the page it keeps the items together*/
-    justify-content: space-between; /* adds spaces between the list elements */
+    list-style-type: none; /* removes the bullet points in the footer */
+    display: flex; /* when you move the page it keeps the items together in the footer */
+    justify-content: space-between; /* adds spaces between the list elements in the footer */
 }
 
 a {
-    text-decoration: none; /* removes the underline */
-    color: #000; /* changed the text color */
+    text-decoration: none; /* removes the underline in the footer */
+    color: #000; /* changed the text color in the footer */
 }
 
 footer {

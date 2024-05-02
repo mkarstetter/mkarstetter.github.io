@@ -1,1 +1,113 @@
-/* initial stylesheet */
+#container { 
+  max-width: 1024px;
+  margin: 0 auto;
+  font-family: "PT Serif", sans-serif; /* the font I used*/
+}
+
+.logo {
+  width: 70%;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%; /* made the picture go the whole length of my website width wise */
+}
+
+menu {
+  padding: 0;
+  border-bottom: 1px solid #37593a; /* added the line on bottom of the menu*/
+  display: flex; /* when you move the page it keeps items together */
+  justify-content: space-between; /* adds spaces between the list elements */
+  list-style-type: none; /* removes the bullet points*/
+  padding-bottom: 20px; /* moved the line of the border down so I could see my hover line */
+}
+
+ul {
+  padding: 0;
+  list-style-type: none; /* removes the bullet points in the footer */
+  display: flex; /* when you move the page it keeps the items together in the footer */
+  justify-content: space-between; /* adds spaces between the list elements in the footer */
+}
+
+a {
+  text-decoration: none; /* removes the underline in the menu */
+  color: #37593a; /* changed the text color in the menu */
+}
+
+a:hover {
+  border-bottom: 1px solid #37593a; /* made the hover just a line instead of a box */
+}
+
+.trailerinbackground {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.groupinblind {
+  width: 30%;
+  padding: 10px; /* moves the image to the right of the words as well as added space between itself and the picture below */
+}
+
+.berkley {
+  width: 30%;
+  padding: 10px; /* moves the image to the right of the words as well as added space between itself and the picture above */
+}
+
+h1 {
+  color: #000; /* changed the color of the headers to black */
+}
+
+main {
+  display: flex; /* makes it so everything in main can be horizontal or vertical */
+  flex-direction: row; 
+  flex-wrap: wrap; /* if something doesn't fit on the page, it will move it down to the nect row */
+}
+
+main .item {
+  width: 45%;
+  padding: 10px; 
+}
+
+.item p {
+  font-size: 1rem;
+}
+
+footer {
+  border-top: 1px solid #37593a; /* added the line on top of the footer*/
+  max-width: 1024px;
+  margin: 0 auto; /* ceneters but only if there is a width */
+}
+
+a {
+  text-decoration: none; /* removes the underline */
+  color: #37593a; /* changed the text color */
+}
+
+.social {
+  max-width: 1024px;
+  margin: 0 auto; /* centers but cannot do so without a width */
+}
+
+.social ul {
+  display: flex;
+  flex-flow: column; /* make the social media icons stacked */
+  justify-content: space-between; /* adds space between items */
+}
+
+.social a {
+  color: #000;
+}
+
+.social a img{
+  height: 10%;
+  width: 10%;
+}
+
+.facebook img {
+  width: 25%;
+  height: 25%;
+}
+
+.social li {
+  text-align: center;
+}
